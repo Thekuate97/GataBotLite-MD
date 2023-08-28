@@ -8,7 +8,7 @@ import axios from 'axios'
 import moment from 'moment-timezone' 
 import { en, es, id, ar, pt } from './lib/idiomas/total-idiomas.js' 
 
-// ES ➜ Agregué primero el número del Bot como prioridad  
+// ES ➜ Agregué primero el número del Bot como prioridad  4
 // ES ➜ Si desea recibir reportes debe de usar los tres parámetros (Número, nombre y true)
 // EN ➜ Add the Bot number as priority first
 // EN ➜ If you want to receive reports you must use the three parameters (Number, name and true)
@@ -20,15 +20,15 @@ global.owner = [
 global.mods = [] 
 global.prems = []
    
-// ES ➜ Agregue el código de idioma el cual usará GataBot  
+// ES ➜ Agregue el código de idioma el cual usará GataBot  es
 // EN ➜ Add the language code which GataBot will use
 //  es = Español      id = Bahasa Indonesia       ar = عرب
 //  en = English      pt = Português 
 global.lenguajeGB = es  //<-- Predeterminado en idioma Español 
 
 // confirmación en el ajuste de idioma y owner en la consola
-global.languageLen = ""
-global.registerNumber = ""
+global.languageLen = "es"
+global.registerNumber = "es"
 
 // ES ➜ Consigue Apikey en https://platform.openai.com/account/api-keys
 global.openai_key = 'sk-0'
